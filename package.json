@@ -1,0 +1,19 @@
+{
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "name": "my_porfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Grois333/my-image-portfolio.git",
+  "author": "Isaac <grisman13@gmailcom.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/jquery": "^3.3.31",
+    "jquery": "^3.4.1",
+    "systemjs": "^0.19.4"
+  }
+}
