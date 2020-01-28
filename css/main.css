@@ -9867,3 +9867,60 @@ footer {
   font-size: 16px;
   padding: 10px;
 }
+
+@media screen and (max-width: 990px) {
+  .title {
+    margin: auto;
+  }
+
+  .d-flex {
+    margin: auto;
+  }
+
+  .main-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .main-menu a {
+    color: #3c3950;
+    font-weight: 600;
+    padding: 3px 15px;
+  }
+
+  header .login {
+    margin-bottom: 10px;
+  }
+  header .login::before {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+  }
+
+  .title {
+    margin: auto;
+  }
+
+  header .login {
+    margin-top: 15px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .main-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-menu li {
+    padding: 10px;
+    display: block;
+    text-align: center;
+  }
+}
